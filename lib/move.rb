@@ -6,8 +6,8 @@ def display_board(board)
   puts " #{board[6]} | #{board[7]} | #{board[8]} "
 end
 
-def move(array, index, value = "X")
- array[index] = value
+def move(board, index, value = "X")
+ board[index] = value
 end
 
 def input_to_index(number)
