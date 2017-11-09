@@ -11,6 +11,6 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " ",]
 
 
 
-index = gets.strip
+gets.strip = input
 input_to_index(index)
 display_board(board)
